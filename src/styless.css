@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 3px 5px black;
+    background-color: #036;
+
+}
+
+header img {
+    width: auto;
+    height: 60%;
+
+}
+
+main {
+    display: flex;
+    width: 250px;
+    height: 150px;
+
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    gap: 5px;
+    background-color: white;
+
+}
+
+.login , .password{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+}
+
+.login input , .password input {
+    width: 80%;
+
+}
+
+.login p , .password p {
+    font-size: 18px;
+
+}
+
+.auto-login {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.auto-login input {
+    aspect-ratio: 1/1;
+    margin: 0px 3px;
+    height: 18px;
+
+}
+
+
+
+
+
